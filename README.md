@@ -4,7 +4,7 @@
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
 | <img src="./public/vite.svg" width="100" height="100" alt="Vite Logo"> | <img src="./src/assets/TS.svg" width="100" height="100" alt="TypeScript Logo"> | <img src="./src/assets/vue.svg" width="100" height="100" alt="VUE JS Logo"> |
 
-<br><br>
+<br>
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
