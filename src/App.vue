@@ -9,6 +9,9 @@ import PixiApp from './components/PixiApp.vue'
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
+    <a href="https://www.typescriptlang.org/" target="_blank">
+      <img src="./assets/TS.svg" class="logo" alt="TypeScript logo" />
+    </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
@@ -16,7 +19,7 @@ import PixiApp from './components/PixiApp.vue'
       <img src="./assets/pixi.svg" class="logo vue" alt="PIXI logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue + PIXI" />
+  <HelloWorld msg="Vite + TS + Vue + PIXI" />
 </template>
 
 <style scoped>
