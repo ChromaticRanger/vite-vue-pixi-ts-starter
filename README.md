@@ -1,8 +1,8 @@
 # Vite + TypeScript + Vue 3
 
-<img src="./public/vite.svg" width="80" height="80" alt="Vite Logo" style="margin-right: 82px;">
-<img src="./src/assets/TS.svg" width="80" height="80" alt="TypeScript Logo" style="margin-right: 86px;">
-<img src="./src/assets/vue.svg" width="80" height="80" alt="VUE JS Logo" >
+|                                                                        |                                                                                |                                                                             |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| <img src="./public/vite.svg" width="100" height="100" alt="Vite Logo"> | <img src="./src/assets/TS.svg" width="100" height="100" alt="TypeScript Logo"> | <img src="./src/assets/vue.svg" width="100" height="100" alt="VUE JS Logo"> |
 
 <br><br>
 
