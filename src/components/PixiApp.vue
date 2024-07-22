@@ -33,35 +33,8 @@ const initialisePixi = async (): Promise<void> => {
     }
 }
 
-/**
- * Draw a rectangle that moves back and forth horizontally
- */
-// const drawGraphics = () => {
-//     const rec = new PIXI.Graphics();
-//     rec.roundRect( 0, 0, 32, 32, 10 ).fill( 0xE02F66 );
-//     rec.position.set( 150 - rec.width / 2, 150 - rec.height / 2 );
-//     let recSpeed: number = 300;
-// 
-//     pixiApp.value!.stage.addChild( rec );
-// 
-//     pixiApp.value!.ticker.add( ( ticker ) => {
-//         const delta = ticker.deltaTime / 100;
-//         rec.x += recSpeed * delta;
-// 
-//         if( rec.x > pixiApp.value!.screen.width - rec.width ) {
-//             rec.x = pixiApp.value!.screen.width - rec.width;
-//             recSpeed = -recSpeed;
-//         } else if( rec.x < 0 ) {
-//             rec.x = 0;
-//             recSpeed = -recSpeed;
-//         }
-//     } );
-// }
-
 onMounted( async () => {
-    console.log('PixiApp mounted 5');
     await initialisePixi();
-    // drawGraphics();
     const background = PIXI.Sprite.from( "scene/background.png" );
     pixiApp.value!.stage.addChild(background);
     pixiApp.value!.stage.scale.x = pixiApp.value!.canvas.width / background.width;
