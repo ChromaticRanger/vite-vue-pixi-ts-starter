@@ -23,7 +23,6 @@ import PixiApp from './components/PixiApp.vue'
       <img src="./assets/pixi.svg" class="logo vue" alt="PIXI logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + TS + Vue + PIXI" />
 </template>
 
 <style scoped>
